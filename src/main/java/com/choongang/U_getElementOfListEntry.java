@@ -1,9 +1,14 @@
-//package com.choongang;
-//
-//import java.util.*;
-//
-//public class U_getElementOfListEntry {
-//    public String getElementOfListEntry(HashMap<String, List<String>> hashMap, String key, int index) {
-//        // TODO:
-//    }
-//}
+package com.choongang;
+
+import java.util.*;
+
+public class U_getElementOfListEntry {
+    public String getElementOfListEntry(HashMap<String, List<String>> hashMap, String key, int index) {
+        // TODO:
+        if(index < hashMap.size()) {
+
+        } else {
+            return null;
+        }
+    }
+}
