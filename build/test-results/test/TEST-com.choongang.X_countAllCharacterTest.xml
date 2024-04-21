@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.choongang.X_countAllCharacterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-04-21T10:33:07" hostname="igwanghuiui-MacBookPro.local" time="0.025">
+  <properties/>
+  <testcase name="빈 문자열을 입력받은 경우, null을 리턴해야 합니다." classname="com.choongang.X_countAllCharacterTest" time="0.023"/>
+  <testcase name="&quot;banana&quot;를 입력받은 경우, {b=1, a=3, n=2}와 같은 HashMap을 리턴해야 합니다" classname="com.choongang.X_countAllCharacterTest" time="0.001"/>
+  <testcase name="&quot;codestates&quot;를 입력받은 경우, {'a'=1, 'c'=1, 'd'=1, 'e'=2, 'o'=1, 's'=2, 't'=2}와 같은 HashMap을 리턴해야 합니다" classname="com.choongang.X_countAllCharacterTest" time="0.0"/>
+  <testcase name="&quot;kimcoding&quot;를 입력받은 경우, {'c'=1, 'd'=1, 'g'=1, 'i'=2, 'k'=1, 'm'=1, 'n'=1, 'o'=1}와 같은 HashMap을 리턴해야 합니다" classname="com.choongang.X_countAllCharacterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
