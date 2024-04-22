@@ -7,13 +7,18 @@ import java.util.Iterator;
 public class L_sumAllElements {
     public int sumAllElements(ArrayList<Integer> arrayList) {
         // TODO:
-        int output = 0;
-        Iterator<Integer> iter = arrayList.iterator();
-
-        while (iter.hasNext()) {
-            output += iter.next();
+        if (arrayList.size() == 0) {
+            return 0;
         }
 
-        return output;
+        int sumNum = 0;
+
+        Iterator<Integer> iterator = arrayList.iterator();
+        while (iterator.hasNext()) {
+            Integer nextNumber = iterator.next();
+            sumNum += nextNumber;
+            iterator.remove();
+        }
+        return sumNum;
     }
 }

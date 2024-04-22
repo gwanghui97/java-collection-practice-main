@@ -10,12 +10,19 @@ public class J_arrayToArrayList {
             return null;
         }
 
-        ArrayList<String> output = new ArrayList<>();
-
-        for (String s : arr) {
-            output.add(s);
+        ArrayList<String> newArrayList = new ArrayList<>();
+        for (int i = 0; i < arr.length; i++) {
+            newArrayList.add(arr[i]);
         }
+        // 다른 방법 1, 2, 3
+//        for (String str : arr) {
+//            newArrayList.add(str);
+//        }
 
-        return output;
+//        Collection.addAll(newArrList, arr);
+
+//        return new ArrayList<>(Arrays.asList(arr));
+
+        return newArrayList;
     }
 }

@@ -5,16 +5,12 @@ import java.util.*;
 public class U_getElementOfListEntry {
     public String getElementOfListEntry(HashMap<String, List<String>> hashMap, String key, int index) {
         // TODO:
-        if (index > hashMap.size() - 1) {
-            return null;
+        if (hashMap.containsKey(key)) {
+            List<String> list = hashMap.get(key);
+            if(index >= 0 && index < list.size()) {
+                return list.get(index);
+            }
         }
-
-        if (!hashMap.containsKey(key)) {
-            return null;
-        }
-
-        List<String> list = hashMap.get(key);
-
-        return list.get(index);
+        return null;
     }
 }

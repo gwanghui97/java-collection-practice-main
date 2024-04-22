@@ -5,12 +5,10 @@ import java.util.ArrayList;
 public class G_removeFromFront {
     public Integer removeFromFront(ArrayList<Integer> arrayList) {
         // TODO:
-        if (arrayList.isEmpty()) {
+        if (arrayList.size() == 0) {
             return null;
         }
-
-        Integer remove = arrayList.remove(0);
-
-        return remove;
+        Integer result = arrayList.remove(0);
+        return result;
     }
 }

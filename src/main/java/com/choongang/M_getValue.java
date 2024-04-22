@@ -6,12 +6,7 @@ import java.util.Map;
 public class M_getValue {
     public Integer getValue(HashMap<String, Integer> hashMap, String key) {
         // TODO:
-        Integer output = 0;
-
-        for (String s : hashMap.keySet()) {
-            output = hashMap.get(key);
-        }
-
-        return output;
+        Integer reslut = hashMap.get(key);
+        return reslut;
     }
 }

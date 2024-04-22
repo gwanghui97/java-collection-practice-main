@@ -4,16 +4,12 @@ import java.util.*;
 public class B_getNthElement {
     public Integer getNthElement(ArrayList<Integer> arrayList, int index) {
         // TODO:
-        Integer output = null;
-
-        if (arrayList.isEmpty()) {
+        if (arrayList.size() == 0) {
             return null;
-        } else if(arrayList.size() < index){
+        } else if (index >= arrayList.size()) {
             return null;
         }
 
-        output = arrayList.get(index);
-
-        return output;
+        return arrayList.get(index);
     }
 }

@@ -5,14 +5,14 @@ import java.util.HashMap;
 public class W_select {
     public HashMap<String, Integer> select(String[] arr, HashMap<String, Integer> hashMap) {
         // TODO:
-        HashMap<String, Integer> output = new HashMap<>();
+        HashMap<String, Integer> result = new HashMap<>();
 
-        for (String s : arr) {
-            if (hashMap.containsKey(s)) {
-                output.put(s, hashMap.get(s));
+        for (String str : arr) {
+            if (hashMap.containsKey(str)) {
+                Integer value = hashMap.get(str);
+                result.put(str, value);
             }
         }
-
-        return output;
+        return result;
     }
 }
